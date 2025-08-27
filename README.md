@@ -1,44 +1,44 @@
-# 🎮 RPS Watch App - Rock Paper Scissors for Apple Watch
+# RPS Watch App - Rock Paper Scissors for Apple Watch
 
 A beautifully designed, feature-rich Rock Paper Scissors game built specifically for Apple Watch with modern SwiftUI animations and engaging gameplay.
 
-## 📱 Overview
+## Overview
 
 RPS Watch App is a best-of-3 match-based Rock Paper Scissors game that offers an immersive gaming experience on Apple Watch. The app features smooth animations, haptic feedback, confetti celebrations, and a responsive design that works perfectly across all watch sizes.
 
-## ✨ Features
+## Features
 
-### 🎯 Core Gameplay
+### Core Gameplay
 - **Best-of-3 Match Format**: First to win 2 rounds takes the match
 - **Instant Gameplay**: No countdown - choose your move and see results immediately
 - **Smart Round Logic**: Draws don't count as rounds, matches can end early
 - **Persistent Statistics**: Tracks overall matches won/lost across sessions
 
-### 🎨 Visual Design
+### Visual Design
 - **Modern UI**: Clean, game-like interface with material design elements
 - **Color-Coded Moves**: Each move (Rock/Paper/Scissors) has its own color theme
 - **Responsive Layout**: Adapts to different watch sizes automatically
 - **Beautiful Animations**: Smooth transitions and engaging visual effects
 
-### 🎊 Celebration Effects
+### Celebration Effects
 - **Confetti Animation**: Colorful confetti with physics simulation on victory
 - **Victory Glow**: Radial gradient effect when you win
 - **Shockwave Effect**: Expanding circle animation for dramatic impact
 - **Trophy Animation**: Animated trophy with spring effects
 
-### 📊 Game Statistics
+### Game Statistics
 - **Match Tracking**: Persistent win/loss record using @AppStorage
 - **Round Counter**: Shows current round (1-3) and match progress
 - **Score Display**: Real-time score tracking during matches
 - **Final Results**: Comprehensive match summary
 
-### 🎮 User Experience
+### User Experience
 - **Haptic Feedback**: Different haptic patterns for wins, losses, draws, and interactions
 - **Intuitive Controls**: Simple tap-to-play interface
 - **Context-Aware Buttons**: Different colored buttons for different actions
 - **Smooth Transitions**: Seamless flow between game stages
 
-## 🛠 Technical Implementation
+## Technical Implementation
 
 ### Architecture
 - **SwiftUI**: Modern declarative UI framework
@@ -58,7 +58,7 @@ RPS Watch App is a best-of-3 match-based Rock Paper Scissors game that offers an
 - **Victory Effects**: Multiple layered animations for celebrations
 - **Smooth Transitions**: Asymmetric transitions between stages
 
-## 📋 Requirements
+## Requirements
 
 ### Development
 - **Xcode**: 15.0 or later
@@ -71,7 +71,7 @@ RPS Watch App is a best-of-3 match-based Rock Paper Scissors game that offers an
 - **watchOS**: 10.0 or later
 - **iPhone**: iOS 17.0 or later (for pairing)
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -99,7 +99,7 @@ open RPS.xcodeproj
 - Press Cmd+R or click the Play button
 - The app will install on your watch automatically
 
-## 🎮 How to Play
+## How to Play
 
 ### Game Flow
 1. **Choose Your Weapon**: Tap Rock (✊), Paper (✋), or Scissors (✌️)
@@ -121,7 +121,7 @@ open RPS.xcodeproj
 - **Green "Play Again"**: Start new match
 - **Red "Reset"**: Reset all statistics
 
-## 🎨 Design Features
+## Design Features
 
 ### Visual Elements
 - **Gradient Background**: Purple/blue/pink animated gradient
@@ -141,7 +141,7 @@ open RPS.xcodeproj
 - **Edge Protection**: No elements cut off at screen edges
 - **Touch Optimization**: Properly sized touch targets
 
-## 🔧 Development Notes
+## Development Notes
 
 ### Project Structure
 ```
@@ -165,7 +165,7 @@ RPS/
 - **@State**: Game state and animations
 - **Enum Stages**: Clean state transitions
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -192,7 +192,7 @@ RPS/
 - **Memory Management**: Confetti automatically cleans up
 - **Smooth Performance**: Optimized for 60fps on all watch models
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 ### Potential Features
 - **Multiplayer Support**: Play against friends
@@ -208,7 +208,7 @@ RPS/
 - **Widget Support**: Quick game access
 - **Complications**: Watch face integration
 
-## 🤝 Contributing
+## Contributing
 
 ### Development Guidelines
 - Follow SwiftUI best practices
@@ -223,11 +223,11 @@ RPS/
 - Follow Apple's Human Interface Guidelines
 - Maintain consistent naming conventions
 
-## 📄 License
+## License
 
 This project is created for educational and personal use. Please respect Apple's developer guidelines and terms of service.
 
-## 👨‍💻 Author
+## Author
 
 **Mirvaben Dudhagara**
 - Created: August 25, 2025
@@ -235,7 +235,7 @@ This project is created for educational and personal use. Please respect Apple's
 - Language: Swift
 - Framework: SwiftUI
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Apple for SwiftUI and WatchKit frameworks
 - SwiftUI community for best practices
@@ -244,4 +244,4 @@ This project is created for educational and personal use. Please respect Apple's
 
 ---
 
-**Enjoy playing RPS on your Apple Watch! 🎮⌚**
+**Enjoy playing RPS on your Apple Watch!**
